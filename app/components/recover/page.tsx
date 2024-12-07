@@ -26,11 +26,11 @@ export default function Recover() {
         <div className="pt-10   w-[400px]  border-r border-gray-300">
           <ul className="space-y-4  pl-12 ">
             <li className="flex justify-between items-center hover:text-blue-600 cursor-pointer transition duration-300">
-              Woman's Fashion
+              Womans Fashion
               <IoChevronForwardOutline className="text-lg mr-9" />
             </li>
             <li className="flex justify-between items-center hover:text-blue-600 cursor-pointer transition duration-300">
-              Men's Fashion
+              Mens Fashion
               <IoChevronForwardOutline className="text-lg mr-9" />
             </li>
             <li className="hover:text-blue-600 cursor-pointer transition duration-300">
@@ -46,7 +46,7 @@ export default function Recover() {
               Sports & Outdoors
             </li>
             <li className="hover:text-blue-600 cursor-pointer transition duration-300">
-              Baby's & Toys
+              Babys & Toys
             </li>
             <li className="hover:text-blue-600 cursor-pointer transition duration-300">
               Groceries & Pets
@@ -88,7 +88,7 @@ export default function Recover() {
       </div>
 
       <div className="mt-14 ml-16">
-        <h4 className="text-red-700 font-bold">Today's</h4>
+        <h4 className="text-red-700 font-bold">Todays</h4>
         <div className="flex space-x-14">
           <h1 className="pt-12 text-4xl font-extrabold tracking-[4]">
             FLASH SALES
@@ -636,15 +636,15 @@ export default function Recover() {
       <div className=" mt-10 ml-20">
         <h4 className="text-red-700 font-bold">Featured</h4>
         <h1 className="pt-12 text-4xl font-extrabold tracking-[4]">
-          New Arrival's
+          New Arrivals
         </h1>
         <div className="flex space-x-3 mt-12">
           <Image src="/main.jpg" alt="" />
           <div className="">
-            <img src="/Frame 685.jpg" className="w-[560px] h-[345px]" alt="" />
+            <Image src="/Frame 685.jpg" className="w-[560px] h-[345px]" alt="" />
             <div className="flex mt-4 space-x-4">
-              <img src="/Frame 686.jpg" alt="" />
-              <img src="/Frame 687.jpg" alt="" />
+              <Image src="/Frame 686.jpg" alt="" />
+              <Image src="/Frame 687.jpg" alt="" />
             </div>
           </div>
         </div>

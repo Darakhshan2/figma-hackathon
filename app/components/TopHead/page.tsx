@@ -1,9 +1,9 @@
 "use client"
-import { useState } from 'react'
+import { useState } from "react"
 import { CiHeart } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { CiSearch } from "react-icons/ci";
-import { HiOutlineMenu } from 'react-icons/hi';
+import { HiOutlineMenu } from "react-icons/hi";
 export default function HeaderTop() {
   const[menuOpen , setMenuOpen] = useState(false);
 
@@ -14,7 +14,7 @@ export default function HeaderTop() {
     <div>
 
       <div className="flex justify-between pl-12  sm:pl-12 sm:pr-12 pr-12 pt-4 ">
-        <h1 className="text-3xl font-semibold">Exclusive</h1>
+        <h1 className="text-3xl font-    ">Exclusive</h1>
 
          {/* Hamburger Menu for small screens */}
 
@@ -25,7 +25,7 @@ export default function HeaderTop() {
           />
         </div>
 
-        <nav className= {`space-x-8 mt-2  hidden sm:flex ${menuOpen ? 'block' : 'hidden'}`}>
+        <nav className= {`space-x-8 mt-2  hidden sm:flex ${menuOpen ? "block" : "hidden"}`}>
           <a href="/components/recover">Home</a>
           <a href="/components/contact">Contact</a>
           <a href="/components/about">About</a>

@@ -17,7 +17,7 @@ export default function About() {
         <div className="w-2/6 sm:w-2/6 sm:ml-12 px-6 sm:px-12 mt-28 ml-12 ">
           <h1 className="text-3xl sm:text-5xl p-3">Our Story</h1>
           <p className="leading-normal p-3 text-sm sm:text-base">
-            Our Story Launced in 2015, Exclusive is South Asia's premier online
+            Our Story Launced in 2015, Exclusive is South Asias premier online
             shopping makterplace with an active presense in Bangladesh.
             Supported by wide range of tailored marketing, data and service
             solutions,
@@ -35,7 +35,7 @@ export default function About() {
         </div>
       </div>
    
-      <h1 className="mt-20 text-3xl sm:text-5xl text-center ">PROJECT PARTNER'S</h1>
+      <h1 className="mt-20 text-3xl sm:text-5xl text-center ">PROJECT PARTNERS</h1>
       <div className="flex flex-wrap justify-center sm:mt-20 mt-10 space-x-6 sm:space-x-10 mb-9">
         {/* pro1 */}
         <div className="relative h-48 sm:h-56 w-48 sm:w-56 border-2 rounded-lg overflow-hidden group mb-4 sm:mb-0">
