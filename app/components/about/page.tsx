@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 import { FaShippingFast } from "react-icons/fa";
@@ -5,6 +6,7 @@ import { FaShippingFast } from "react-icons/fa";
 import { RiCustomerService2Line } from "react-icons/ri";
 
 import { SiAdguard } from "react-icons/si";
+
 
 export default function About() {
   return (
@@ -29,7 +31,7 @@ export default function About() {
         </div>
 
         <div className="mt-10 sm:mt-20 sm:ml-36">
-          <img src="/about.jpg" className="h-64 sm:h-96 mx-auto" alt="" />
+          <Image src="/about.jpg" className="h-64 sm:h-96 mx-auto" alt="about" />
         </div>
       </div>
    
@@ -37,9 +39,10 @@ export default function About() {
       <div className="flex flex-wrap justify-center sm:mt-20 mt-10 space-x-6 sm:space-x-10 mb-9">
         {/* pro1 */}
         <div className="relative h-48 sm:h-56 w-48 sm:w-56 border-2 rounded-lg overflow-hidden group mb-4 sm:mb-0">
-          <img
+          <Image
             src="/div1.jpg"
             className="w-full object-cover transition-all duration-300 group-hover:blur-sm"
+            alt="Partner1"
           />
           <div className="absolute inset-0 flex items-end justify-center bg-black bg-opacity-70 transition-transform transform translate-y-full group-hover:translate-y-0 duration-300">
             <p className="text-white p-4 block">
@@ -51,7 +54,8 @@ export default function About() {
         </div>
         {/* 2 */}
         <div className="relative h-48 sm:h-56 w-48 sm:w-56 border-2 rounded-lg overflow-hidden group mb-4 sm:mb-0">
-          <img
+          <Image
+          alt="Partner2"
             src="/div2.jpg"
             className="w-full object-cover transition-all duration-300 group-hover:blur-sm"
           />
@@ -65,7 +69,8 @@ export default function About() {
         </div>
         {/* 3 */}
         <div className="relative h-48 sm:h-56 w-48 sm:w-56 border-2 rounded-lg overflow-hidden group mb-4 sm:mb-0">
-            <img
+            <Image
+            alt=""
               src="/div3.jpg"
               className="w-full object-cover transition-all duration-300 group-hover:blur-sm"
             />
@@ -80,7 +85,8 @@ export default function About() {
 
           {/* Partner 4 */}
           <div className="relative h-48 sm:h-56 w-48 sm:w-56 border-2 rounded-lg overflow-hidden group">
-            <img
+            <Image
+            alt=""
               src="/div4.jpg"
               className="w-full object-cover transition-all duration-300 group-hover:blur-sm"
             />
