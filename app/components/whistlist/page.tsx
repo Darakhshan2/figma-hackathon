@@ -1,4 +1,6 @@
+import Image from "next/image";
 import React from "react";
+
 import { CiHeart } from "react-icons/ci";
 import { IoEyeOutline } from "react-icons/io5";
 
@@ -13,7 +15,7 @@ export default function WhistList() {
       <div className="flex">
         <div className="m-10 w-[290px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 611.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -38,7 +40,7 @@ export default function WhistList() {
 
         <div className=" m-10 w-[290px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 612.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -65,7 +67,7 @@ export default function WhistList() {
 
         <div className="m-10 w-[290px] h-[350px] border-2 hover:rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 613.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -97,7 +99,7 @@ export default function WhistList() {
       <div className="flex">
       <div className="m-10 w-[290px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
         <div className="flex relative">
-          <img
+          <Image
             src="/Frame 616.jpg"
             alt=""
             className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -122,7 +124,7 @@ export default function WhistList() {
       </div>
       <div className="m-10  w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 604.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -145,7 +147,7 @@ export default function WhistList() {
         </div>
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/camera.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"

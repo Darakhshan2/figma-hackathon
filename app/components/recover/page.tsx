@@ -16,7 +16,9 @@ import { RiCustomerService2Line } from "react-icons/ri";
 
 import { SiAdguard } from "react-icons/si";
 
+
 import { BsSmartwatch } from "react-icons/bs";
+import Image from "next/image";
 export default function Recover() {
   return (
     <>
@@ -75,7 +77,7 @@ export default function Recover() {
             </div>
           </div>
           <div className="relative">
-            <img
+            <Image
               className="h-[280px] w-full object-cover"
               src="/iphone.jpg"
               alt="iPhone"
@@ -119,8 +121,7 @@ export default function Recover() {
       >
         <div className="m-2  w-[290px] h-[350px] border-2 rounded-lg  hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
-              src="/Frame 611.jpg"
+            <Image              src="/Frame 611.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
             />
@@ -151,7 +152,7 @@ export default function Recover() {
         {/* 2nd */}
         <div className="m-2 w-[290px] h-[350px] border-2 rounded-lg hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 612.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -184,7 +185,7 @@ export default function Recover() {
 
         <div className="m-2 w-[290px] h-[350px] border-2 rounded-lg  hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 613.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -215,7 +216,7 @@ export default function Recover() {
         </div>
         <div className="m-2 w-[290px] h-[350px] border-2 rounded-lg hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 616.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -296,7 +297,7 @@ export default function Recover() {
         <div className=" flex overflow-x-auto justify-between">
           <div className="m-14 w-[290px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
             <div className="flex relative">
-              <img
+              <Image
                 src="/jacket.jpg"
                 alt=""
                 className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -327,7 +328,7 @@ export default function Recover() {
 
         <div className="m-12 w-[290px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/bag.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -356,7 +357,7 @@ export default function Recover() {
         </div>
         <div className="m-14 w-[290px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/speaker.jpg"
               alt=""
               className=" p-9 h-[250px] w-[290px] bg-slate-200"
@@ -386,7 +387,7 @@ export default function Recover() {
       </div>
 
       <div className="ml-20">
-        <img src="/Frame 600.jpg" alt="" />
+        <Image src="/Frame 600.jpg" alt="" />
       </div>
 
       <div className="mt-12 ml-16">
@@ -399,7 +400,7 @@ export default function Recover() {
       <div className="flex">
         <div className="m-10  w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 604.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -428,7 +429,7 @@ export default function Recover() {
 
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/camera.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -457,7 +458,7 @@ export default function Recover() {
 
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/iped.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -485,7 +486,7 @@ export default function Recover() {
         </div>
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/shoes.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -515,8 +516,7 @@ export default function Recover() {
       <div className="flex">
         <div className="m-10  w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
-              src="/kids.jpg"
+            <Image             src="/kids.jpg"
               alt=""
               className=" p-12 h-[250px] w-[270px] bg-slate-200"
             />
@@ -545,7 +545,7 @@ export default function Recover() {
 
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/denim.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -574,7 +574,7 @@ export default function Recover() {
 
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 614.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -602,7 +602,7 @@ export default function Recover() {
         </div>
         <div className="m-10 w-[270px] h-[350px] border-2 rounded-lg shadow-xl hover:shadow-gray-500 hover:translate-x-1 hover:translate-y-1  ">
           <div className="flex relative">
-            <img
+            <Image
               src="/Frame 608.jpg"
               alt=""
               className=" p-9 h-[250px] w-[270px] bg-slate-200"
@@ -639,7 +639,7 @@ export default function Recover() {
           New Arrival's
         </h1>
         <div className="flex space-x-3 mt-12">
-          <img src="/main.jpg" alt="" />
+          <Image src="/main.jpg" alt="" />
           <div className="">
             <img src="/Frame 685.jpg" className="w-[560px] h-[345px]" alt="" />
             <div className="flex mt-4 space-x-4">
